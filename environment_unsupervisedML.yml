@@ -1,0 +1,16 @@
+name: environment_unsupervisedML
+channels:
+  - defaults
+dependencies:
+  - scikit-learn=1.2.2
+  - python=3.11.5
+  - matplotlib=3.8.0
+  - jupyter=1.0.0
+  - numpy=1.26.0
+  - pandas=2.1.1
+  - plotly=5.9.0
+  - scipy=1.11.3
+  - tqdm=4.65.0
+  - pip=23.3
+  - pip:
+    - umap-learn==0.5.4
